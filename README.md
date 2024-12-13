@@ -2,7 +2,7 @@
 
 ## Índice
 1. Descripción
-     -Direccionamiento IP  
+    - Direccionamiento IP  
 2. Pasos de Instalación y Configuración  
     - Capa 1: Balanceador 
     - Capa 2: Servidores Web y NFS  
