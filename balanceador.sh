@@ -8,7 +8,7 @@ sudo apt-get install -y nginx
 cat <<EOF > /etc/nginx/sites-available/default
 upstream backend_servers {
     server 192.168.56.10;
-    server 192.168.56.12;
+    server 192.168.56.11;
 }
 
 server {
