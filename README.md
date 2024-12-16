@@ -271,7 +271,7 @@ Este script de Bash automatiza la instalación y configuración de MariaDB para 
 
 ## 3.Resultado final
 
-El único problema que tendremos para acceder a la práctica es que tendremos que entrar en la máquina balanceador para ver su ip pública, debido a que el reenvio de puertos no es posible.
+El único problema que tendremos para acceder a la práctica es que tendremos que entrar en la máquina balanceador para ver su ip pública, debido a que el reenvio de puertos no funciona.
 
 ![image](https://github.com/user-attachments/assets/21d4e9fc-de60-48bb-b399-eb20d9453e7f)
 
