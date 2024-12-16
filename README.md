@@ -274,7 +274,7 @@ El único problema que tendremos para acceder a la práctica es que tendremos qu
 
 ![image](https://github.com/user-attachments/assets/48e5981b-7359-47d9-b5dc-51cf0606271a)
 
-Y una vez dentro con el usuario admin y la contraseña 1234 el resultado es:
+Y una vez dentro con el usuario JesusA y la contraseña 1234 el resultado es:
 
 ![image](https://github.com/user-attachments/assets/e2e46688-d7b4-408b-bc22-70eae9b58010)
 
