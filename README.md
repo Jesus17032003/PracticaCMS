@@ -19,6 +19,19 @@ El objetivo es garantizar modularidad y escalabilidad mediante la configuración
 
 ### - Direccionamiento IP
 
+| Nombre de la Máquina     | Hostname             | Dirección IP        | Red Asociada   | Script de Provisión          |
+|--------------------------|----------------------|---------------------|----------------|------------------------------|
+| SGBDJesusA              | SGBDJesusA          | 192.168.60.10       | red_Sgbd       | BDD.sh                       |
+| NFSJesusA               | NFSJesusA           | 192.168.56.12       | red1           | nfs.sh                       |
+|                          |                     | 192.168.60.13       | red_Sgbd       |                              |
+| Web1JesusA              | Web1JesusA          | 192.168.56.10       | red1           | webs.sh                      |
+|                          |                     | 192.168.60.11       | red_Sgbd       |                              |
+| Web2JesusA              | Web2JesusA          | 192.168.56.11       | red1           | webs.sh                      |
+|                          |                     | 192.168.60.12       | red_Sgbd       |                              |
+| BalanceadorJesusA       | BalanceadorJesusA   | 192.168.56.1        | red1           | balanceador.sh               |
+|                          |                     | (red pública)       | public_network |                              |
+
+
 ## 2.Pasos de la Instalación y Configuración
 
 ### - Capa1: Balanceador
