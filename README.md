@@ -124,6 +124,7 @@ Este script de Bash automatiza la instalación y configuración de Nginx como un
 # Actualizar repositorios e instalar nginx, nfs-common y PHP 7.4
 sudo apt-get update -y
 sudo apt-get install -y nginx nfs-common php7.4 php7.4-fpm php7.4-mysql php7.4-gd php7.4-xml php7.4-mbstring php7.4-curl php7.4-zip php7.4-intl php7.4-ldap
+sudo apt install mariadb-client 
 
 # Crear directorio para montar la carpeta compartida por NFS
 sudo mkdir -p /var/www/html
@@ -276,6 +277,6 @@ El único problema que tendremos para acceder a la práctica es que tendremos qu
 
 Y una vez dentro con el usuario JesusA y la contraseña 1234 el resultado es:
 
-![image](https://github.com/user-attachments/assets/e2e46688-d7b4-408b-bc22-70eae9b58010)
+![image](https://github.com/user-attachments/assets/35bbbc2d-7993-48ab-ac77-15f33718858e)
 
 
