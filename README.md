@@ -36,6 +36,9 @@ El objetivo es garantizar modularidad y escalabilidad mediante la configuración
 
 ### - Capa1: Balanceador
 
+# Script de Shell: `balanceador.sh`
+
+
 ### - Capa2: Servidores Web y NFS
 
 ### - Capa3: Base de datos
@@ -43,4 +46,13 @@ El objetivo es garantizar modularidad y escalabilidad mediante la configuración
 ### - Despliegue y Configuración del CMS
 
 ## 3.Resultado final
+
+El único problema que tendremos para acceder a la práctica es que tendremos que entrar en la máquina balanceador para ver su ip pública, debido a que el reenvio de puertos no es posible.
+
+![image](https://github.com/user-attachments/assets/48e5981b-7359-47d9-b5dc-51cf0606271a)
+
+Y una vez dentro con el usuario admin y la contraseña 1234 el resultado es:
+
+![image](https://github.com/user-attachments/assets/e2e46688-d7b4-408b-bc22-70eae9b58010)
+
 
